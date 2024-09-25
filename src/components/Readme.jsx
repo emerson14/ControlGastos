@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 
 export function Readme() {
-  // Estado para manejar el idioma
-  const [language, setLanguage] = useState("es"); // 'es' para español, 'en' para inglés
+  const [language, setLanguage] = useState("es"); 
 
-  // Función para cambiar el idioma
   const toggleLanguage = () => {
     setLanguage(language === "es" ? "en" : "es");
   };
 
-  // Textos en ambos idiomas
   const texts = {
     es: {
       title: "Instrucciones para el Sistema de Control de Ganancias y Gastos",
@@ -37,7 +34,6 @@ export function Readme() {
     }
   };
 
-  // Obtener los textos según el idioma seleccionado
   const currentTexts = texts[language];
 
   return (
@@ -60,7 +56,6 @@ export function Readme() {
       </h2>
       <p className="text-center mt-2" dangerouslySetInnerHTML={{ __html: currentTexts.signature }}></p>
 
-      {/* Botón para cambiar el idioma */}
       <div className="text-center mt-4">
         <button
           onClick={toggleLanguage}
