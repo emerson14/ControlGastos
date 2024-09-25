@@ -1,8 +1,9 @@
-# React + Vite
+Instrucciones para el Sistema de Control de Ganancias y Gastos
+¿Cómo usar la aplicación?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Para agregar una ganancia, introduce el valor como un número positivo. Ejemplo: 500
+Para agregar un gasto, introduce el valor con un signo negativo. Ejemplo: -300
+La aplicación se encarga de controlar tus ingresos y gastos, proporcionándote una vista clara de tu balance financiero.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+¿Quién hizo esto?
+Esta aplicación fue creada con mucha dedicación por Emerson Guerrero DEV. ¡Mantén tus finanzas bajo control y sigue adelante!
